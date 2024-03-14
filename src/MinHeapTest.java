@@ -5,10 +5,10 @@ import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.ArrayList;
 
-public class MinHeapListTest {
+public class MinHeapTest {
     @Test
     public void testInsertAndExtract() {
-        MinHeapList minHeap = new MinHeapList();
+        MinHeap minHeap = new MinHeap();
         minHeap.insert(new Interval(
                 LocalDateTime.of(2024, Month.JANUARY, 1, 0, 0),
                 LocalDateTime.of(2024, Month.JANUARY, 8, 0, 0)));
