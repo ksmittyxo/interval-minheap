@@ -26,6 +26,7 @@ public class MinHeapListTest {
                 LocalDateTime.of(2024, Month.OCTOBER, 31, 0, 0)));
 
         ArrayList<Interval> sortedIntervals = new ArrayList<>();
+
         sortedIntervals.add(minHeap.extract());
         sortedIntervals.add(minHeap.extract());
         sortedIntervals.add(minHeap.extract());
