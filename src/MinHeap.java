@@ -1,4 +1,10 @@
-
+/***************************************************************************************
+ *    Title: IntegerMinHeap.java
+ *    Author: Colorado State
+ *    Date: Unknown
+ *    Availability: https://www.cs.colostate.edu/~cs200/Spring17/slides/examples/IntegerMinHeap.java
+ *
+ ***************************************************************************************/
 
 import java.time.LocalDateTime;
 import java.time.Month;
