@@ -33,9 +33,13 @@ public class Interval {
 
     @Override
     public boolean equals(Object obj) {
-        return true;
-    }
-    public boolean isEqualTo(Interval interval) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof Interval)) {
+            return false;
+        }
+        Interval interval = (Interval) obj;
         return start.getYear() == interval.getStart().getYear() &&
                 start.getMonth().equals(interval.getStart().getMonth()) &&
                 start.getDayOfMonth() == interval.getStart().getDayOfMonth() &&
@@ -47,6 +51,4 @@ public class Interval {
                 end.getHour() == interval.getEnd().getHour() &&
                 end.getMinute() == interval.getEnd().getMinute();
     }
-
-
 }
