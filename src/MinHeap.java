@@ -176,7 +176,7 @@ public class MinHeap {
     }
 
     public static void main(String[] arg) {
-        // LocalDateTime.of(year, month, day, hour, minute, second)
+        // LocalDateTime.of(year, month, day, hour, minute)
         MinHeap minHeap = new MinHeap();
         minHeap.insert(new Interval(
                 LocalDateTime.of(2024, Month.MARCH, 1, 10, 3),
